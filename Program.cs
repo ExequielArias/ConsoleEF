@@ -18,6 +18,7 @@ namespace ConsoleEF
                 context.Posts.Add(p);
                 context.SaveChanges();
 
+
                 //Listar todos los datos de una tabla 
                 foreach (var post in context.Posts.ToList())
                 {
